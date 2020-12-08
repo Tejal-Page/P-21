@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  //background(300,300); 
+  background("white"); 
   if(hasCollided(bullet,wall)){
     bullet.velocityX = 0;
     bullet.x = 1160;
